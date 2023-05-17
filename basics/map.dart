@@ -8,8 +8,11 @@ void main() {
   print("\n");
   for (var key in fruits.keys) {
     print(key);
+
     
   }
+  fruits.containsKey("apple");//returns true if the key is present in map
+  // update,remove,isEmpty,length,clear this type of function are available
   
   
 }
