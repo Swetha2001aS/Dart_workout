@@ -1,8 +1,12 @@
 
 
 void main(){
+
    var dog = Dog();
    dog.eat();
+     
+    Animal animal=Animal();
+    animal.eat();
 }
 
 class Animal{
@@ -13,12 +17,12 @@ class Animal{
 
 }
 class Dog extends Animal {
+  //@override
   String? breed;
   void bark(){
     print("brak.....");
   }
   void eat(){
-    super.eat();
     print("eating....");
   }
   
