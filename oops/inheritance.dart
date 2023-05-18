@@ -30,7 +30,7 @@
 
  class Dog extends Animal{
    String? breed;
-   Dog(String breed,String color) :super("black"){
+   Dog(String breed,String color) :super(color){
      
      this.breed = breed;
      this.color = color;

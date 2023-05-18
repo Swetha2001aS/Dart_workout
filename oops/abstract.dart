@@ -17,9 +17,6 @@ abstract class shape{
  int? y;
  void draw();
 
- void normalfunction(){
-
- }
 
 }
 class Rectangle extends shape{
